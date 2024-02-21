@@ -1,1 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sens-serif;
+}
 
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    /*background: linear-gradient(to left, #80c1ff,#baff80);*/
+    background: linear-gradient(to left, #07C8F9,#0D41E1);
+    padding: 10px;
+}
+
+.text-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 92%;
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    padding: 20px;
+    border-radius:12px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
+}
+
+h1{
+    
+}
+
+textarea{
+    width: 90%;
+    height: 150px;
+    border: 2px solid powderblue;
+    outline: none;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    margin: 10px 0px;
+    padding: 40px;
+    border-radius: 12px;
+    /*box-shadow: 0px 0px 6px 3px #0D41E1;*/
+}
+
+/*textarea:hover{
+    box-shadow: 0px 0px 6px 3px #07C8F9;
+    transition: all 0.3s;
+}*/
+
+#btn{
+    border: none;
+    padding: 8px 30px;
+    margin: 10px 0px;
+    font-weight: 500;
+    background-color: #4063ff;
+    color: white;
+    font-size: 16px;
+}
+
+#btn:hover{
+    background-color: black;
+    transition: all 0.3s;
+}
+
+.progress{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    border-top: 2px solid black;
+    padding: 4px;
+}
+
+#words{
+    margin: 10px 0px;
+    border-bottom: 2px  solid black;
+    padding: 4px 0px;
+}
+
+textarea::placeholder{
+    color: white;
+}
+
+
+/* Media query code */
+@media screen and (min-width: 480px)
+
+html{
+    font-size : 62.5%;
+}
+
+.text-field p{
+    font-size: 0.8rem;
+                           }
